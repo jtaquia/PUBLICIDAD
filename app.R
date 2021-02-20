@@ -14,7 +14,7 @@ library(RCurl)
 library(randomForest)
 
 
-publicidad_data <- read.csv("D:/DOCUMENTOS/UNIVERSIDAD_DE_LIMA/2021/GTD/SEMANA6A/Publicidad_Cereales_Compras.csv")#
+publicidad_data <- read.csv("Publicidad_Cereales_Compras.csv")#
 
 #publicidad_data$Compraron <- ifelse(publicidad_data$Compraron=='yes',1,0)
 #publicidad_data$hijos <- ifelse(publicidad_data$hijos=='yes',1,0)
